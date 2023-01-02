@@ -2,7 +2,7 @@
 <template encoding-version="1.3">
     <description></description>
     <groupId>0927ddff-017c-1000-3f08-95a84646cb8e</groupId>
-    <name>crypto_rates_master_to_hive</name>
+    <name>crypto_rates_master_to_hive_2</name>
     <snippet>
         <controllerServices>
             <id>19565a83-d8bf-3957-0000-000000000000</id>
@@ -1133,8 +1133,8 @@ which is saved in parameter: hive_temp_table_name</label>
                     <id>1a2fee02-1066-3ed1-0000-000000000000</id>
                     <parentGroupId>4774f5e3-6e0e-3b75-0000-000000000000</parentGroupId>
                     <position>
-                        <x>-168.0</x>
-                        <y>-640.0</y>
+                        <x>-632.0</x>
+                        <y>-744.0</y>
                     </position>
                     <height>424.0</height>
                     <label>0. Create hive table for crypto rates 
@@ -1240,27 +1240,6 @@ then
                         </entry>
                     </style>
                     <width>440.0</width>
-                </labels>
-                <labels>
-                    <id>c503f1ef-beee-34fb-0000-000000000000</id>
-                    <parentGroupId>4774f5e3-6e0e-3b75-0000-000000000000</parentGroupId>
-                    <position>
-                        <x>1376.0</x>
-                        <y>504.0</y>
-                    </position>
-                    <height>184.0</height>
-                    <label>An unsuccessful attempt at streaming AVRO strainght to hive</label>
-                    <style>
-                        <entry>
-                            <key>background-color</key>
-                            <value>#ffd6d6</value>
-                        </entry>
-                        <entry>
-                            <key>font-size</key>
-                            <value>16px</value>
-                        </entry>
-                    </style>
-                    <width>456.0</width>
                 </labels>
                 <labels>
                     <id>deefac5d-b652-3a61-0000-000000000000</id>
@@ -1480,7 +1459,7 @@ from HDFS</label>
                             </entry>
                             <entry>
 <key>maximum-file-age</key>
-<value>600 sec</value>
+<value>300 sec</value>
                             </entry>
                         </properties>
                         <runDurationMillis>0</runDurationMillis>
@@ -2049,210 +2028,6 @@ from flowfile</value>
                     <type>org.apache.nifi.processors.standard.JoltTransformJSON</type>
                 </processors>
                 <processors>
-                    <id>701b1d9d-840a-3df4-0000-000000000000</id>
-                    <parentGroupId>4774f5e3-6e0e-3b75-0000-000000000000</parentGroupId>
-                    <position>
-                        <x>1440.0</x>
-                        <y>544.0</y>
-                    </position>
-                    <bundle>
-                        <artifact>nifi-hive-nar</artifact>
-                        <group>org.apache.nifi</group>
-                        <version>1.14.0</version>
-                    </bundle>
-                    <config>
-                        <bulletinLevel>WARN</bulletinLevel>
-                        <comments></comments>
-                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-                        <descriptors>
-                            <entry>
-<key>hive-stream-metastore-uri</key>
-<value>
-    <name>hive-stream-metastore-uri</name>
-</value>
-                            </entry>
-                            <entry>
-<key>hive-config-resources</key>
-<value>
-    <name>hive-config-resources</name>
-</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-database-name</key>
-<value>
-    <name>hive-stream-database-name</name>
-</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-table-name</key>
-<value>
-    <name>hive-stream-table-name</name>
-</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-partition-cols</key>
-<value>
-    <name>hive-stream-partition-cols</name>
-</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-autocreate-partition</key>
-<value>
-    <name>hive-stream-autocreate-partition</name>
-</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-max-open-connections</key>
-<value>
-    <name>hive-stream-max-open-connections</name>
-</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-heartbeat-interval</key>
-<value>
-    <name>hive-stream-heartbeat-interval</name>
-</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-transactions-per-batch</key>
-<value>
-    <name>hive-stream-transactions-per-batch</name>
-</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-records-per-transaction</key>
-<value>
-    <name>hive-stream-records-per-transaction</name>
-</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-call-timeout</key>
-<value>
-    <name>hive-stream-call-timeout</name>
-</value>
-                            </entry>
-                            <entry>
-<key>rollback-on-failure</key>
-<value>
-    <name>rollback-on-failure</name>
-</value>
-                            </entry>
-                            <entry>
-<key>kerberos-credentials-service</key>
-<value>
-    <identifiesControllerService>org.apache.nifi.kerberos.KerberosCredentialsService</identifiesControllerService>
-    <name>kerberos-credentials-service</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Kerberos Principal</key>
-<value>
-    <name>Kerberos Principal</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Kerberos Keytab</key>
-<value>
-    <name>Kerberos Keytab</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Kerberos Password</key>
-<value>
-    <name>Kerberos Password</name>
-</value>
-                            </entry>
-                        </descriptors>
-                        <executionNode>ALL</executionNode>
-                        <lossTolerant>false</lossTolerant>
-                        <penaltyDuration>30 sec</penaltyDuration>
-                        <properties>
-                            <entry>
-<key>hive-stream-metastore-uri</key>
-<value>thrift://node1:9083</value>
-                            </entry>
-                            <entry>
-<key>hive-config-resources</key>
-<value>/usr/local/hadoop/etc/hadoop/hdfs-site.xml,/usr/local/hadoop/etc/hadoop/core-site.xml,/usr/local/apache-hive-2.3.8-bin/conf/hive-site.xml
-</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-database-name</key>
-<value>default</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-table-name</key>
-<value>crypto_rates_2</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-partition-cols</key>
-<value>year,month,day</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-autocreate-partition</key>
-<value>true</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-max-open-connections</key>
-<value>8</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-heartbeat-interval</key>
-<value>60</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-transactions-per-batch</key>
-<value>100</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-records-per-transaction</key>
-<value>10000</value>
-                            </entry>
-                            <entry>
-<key>hive-stream-call-timeout</key>
-<value>0</value>
-                            </entry>
-                            <entry>
-<key>rollback-on-failure</key>
-<value>false</value>
-                            </entry>
-                            <entry>
-<key>kerberos-credentials-service</key>
-                            </entry>
-                            <entry>
-<key>Kerberos Principal</key>
-                            </entry>
-                            <entry>
-<key>Kerberos Keytab</key>
-                            </entry>
-                            <entry>
-<key>Kerberos Password</key>
-                            </entry>
-                        </properties>
-                        <runDurationMillis>0</runDurationMillis>
-                        <schedulingPeriod>0 sec</schedulingPeriod>
-                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
-                        <yieldDuration>1 sec</yieldDuration>
-                    </config>
-                    <executionNodeRestricted>false</executionNodeRestricted>
-                    <name>PutHiveStreaming</name>
-                    <relationships>
-                        <autoTerminate>true</autoTerminate>
-                        <name>failure</name>
-                    </relationships>
-                    <relationships>
-                        <autoTerminate>true</autoTerminate>
-                        <name>retry</name>
-                    </relationships>
-                    <relationships>
-                        <autoTerminate>true</autoTerminate>
-                        <name>success</name>
-                    </relationships>
-                    <state>DISABLED</state>
-                    <style/>
-                    <type>org.apache.nifi.processors.hive.PutHiveStreaming</type>
-                </processors>
-                <processors>
                     <id>770da22b-39f2-31d6-0000-000000000000</id>
                     <parentGroupId>4774f5e3-6e0e-3b75-0000-000000000000</parentGroupId>
                     <position>
@@ -2329,7 +2104,7 @@ from flowfile</value>
                         <yieldDuration>1 sec</yieldDuration>
                     </config>
                     <executionNodeRestricted>false</executionNodeRestricted>
-                    <name>UpdateAttribute</name>
+                    <name>UpdateAttribute-changeFileExtension</name>
                     <relationships>
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
@@ -2438,8 +2213,8 @@ from flowfile</value>
                     <id>8a301ad1-6997-3e9a-0000-000000000000</id>
                     <parentGroupId>4774f5e3-6e0e-3b75-0000-000000000000</parentGroupId>
                     <position>
-                        <x>-128.0</x>
-                        <y>-584.0</y>
+                        <x>-592.0</x>
+                        <y>-688.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
@@ -2717,8 +2492,8 @@ stored as orc;</value>
                     <id>ac6593cb-4258-3ae2-0000-000000000000</id>
                     <parentGroupId>4774f5e3-6e0e-3b75-0000-000000000000</parentGroupId>
                     <position>
-                        <x>-128.0</x>
-                        <y>-368.0</y>
+                        <x>-592.0</x>
+                        <y>-472.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-hive-nar</artifact>
@@ -3046,7 +2821,7 @@ stored as orc;</value>
                         <yieldDuration>1 sec</yieldDuration>
                     </config>
                     <executionNodeRestricted>false</executionNodeRestricted>
-                    <name>PutHiveQL</name>
+                    <name>PutHiveQL-insertORCToHive</name>
                     <relationships>
                         <autoTerminate>true</autoTerminate>
                         <name>failure</name>
@@ -3202,7 +2977,7 @@ INSERT INTO TABLE ${hive_output_rates} PARTITION (year,month,day)
                         <yieldDuration>1 sec</yieldDuration>
                     </config>
                     <executionNodeRestricted>false</executionNodeRestricted>
-                    <name>ReplaceText</name>
+                    <name>ReplaceText-createHQLScript</name>
                     <relationships>
                         <autoTerminate>true</autoTerminate>
                         <name>failure</name>
@@ -3584,7 +3359,7 @@ INSERT INTO TABLE ${hive_output_rates} PARTITION (year,month,day)
                         <yieldDuration>1 sec</yieldDuration>
                     </config>
                     <executionNodeRestricted>false</executionNodeRestricted>
-                    <name>PutHDFS</name>
+                    <name>PutHDFS-saveToTempDir</name>
                     <relationships>
                         <autoTerminate>true</autoTerminate>
                         <name>failure</name>
@@ -3624,5 +3399,5 @@ INSERT INTO TABLE ${hive_output_rates} PARTITION (year,month,day)
             </variables>
         </processGroups>
     </snippet>
-    <timestamp>12/29/2022 17:42:19 UTC</timestamp>
+    <timestamp>01/02/2023 14:45:01 UTC</timestamp>
 </template>
