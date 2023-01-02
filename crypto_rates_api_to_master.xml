@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <template encoding-version="1.3">
-    <description>v1</description>
+    <description></description>
     <groupId>0927ddff-017c-1000-3f08-95a84646cb8e</groupId>
-    <name>crypto_rates_api_to_master</name>
+    <name>crypto_rates_api_to_master_2</name>
     <snippet>
         <controllerServices>
             <id>8cf51d93-107b-31fc-0000-000000000000</id>
@@ -178,31 +178,6 @@
             <comments></comments>
             <contents>
                 <connections>
-                    <id>01098be0-0f00-3ba3-0000-000000000000</id>
-                    <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
-                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-                    <destination>
-                        <groupId>eb88a09d-ff52-3c31-0000-000000000000</groupId>
-                        <id>0576fc58-dd08-3a57-0000-000000000000</id>
-                        <type>PROCESSOR</type>
-                    </destination>
-                    <flowFileExpiration>0 sec</flowFileExpiration>
-                    <labelIndex>1</labelIndex>
-                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
-                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
-                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
-                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
-                    <name></name>
-                    <selectedRelationships>matched</selectedRelationships>
-                    <source>
-                        <groupId>eb88a09d-ff52-3c31-0000-000000000000</groupId>
-                        <id>69a77d7e-8e6a-3b15-0000-000000000000</id>
-                        <type>PROCESSOR</type>
-                    </source>
-                    <zIndex>0</zIndex>
-                </connections>
-                <connections>
                     <id>10acb7df-0510-3aa5-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
@@ -353,6 +328,31 @@
                     <zIndex>0</zIndex>
                 </connections>
                 <connections>
+                    <id>d215db42-30d8-3440-0000-000000000000</id>
+                    <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>eb88a09d-ff52-3c31-0000-000000000000</groupId>
+                        <id>db94c2e0-f50a-35de-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>matched</selectedRelationships>
+                    <source>
+                        <groupId>eb88a09d-ff52-3c31-0000-000000000000</groupId>
+                        <id>69a77d7e-8e6a-3b15-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
                     <id>d2bf20a1-546d-3d48-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
@@ -398,31 +398,6 @@
                     <source>
                         <groupId>eb88a09d-ff52-3c31-0000-000000000000</groupId>
                         <id>837f0a1b-f87d-33fa-0000-000000000000</id>
-                        <type>PROCESSOR</type>
-                    </source>
-                    <zIndex>0</zIndex>
-                </connections>
-                <connections>
-                    <id>ee9694ba-d806-3a5c-0000-000000000000</id>
-                    <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
-                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-                    <destination>
-                        <groupId>eb88a09d-ff52-3c31-0000-000000000000</groupId>
-                        <id>db94c2e0-f50a-35de-0000-000000000000</id>
-                        <type>PROCESSOR</type>
-                    </destination>
-                    <flowFileExpiration>0 sec</flowFileExpiration>
-                    <labelIndex>1</labelIndex>
-                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
-                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
-                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
-                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
-                    <name></name>
-                    <selectedRelationships>success</selectedRelationships>
-                    <source>
-                        <groupId>eb88a09d-ff52-3c31-0000-000000000000</groupId>
-                        <id>0576fc58-dd08-3a57-0000-000000000000</id>
                         <type>PROCESSOR</type>
                     </source>
                     <zIndex>0</zIndex>
@@ -786,10 +761,10 @@
                     <id>0a176833-6184-3be5-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>872.0</x>
-                        <y>360.0</y>
+                        <x>656.0</x>
+                        <y>352.0</y>
                     </position>
-                    <height>608.0</height>
+                    <height>632.0</height>
                     <label>4. Save JSON as AVRO to HDFS</label>
                     <style>
                         <entry>
@@ -807,8 +782,8 @@
                     <id>0f5d06dd-26ba-305f-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>848.0</x>
-                        <y>-232.0</y>
+                        <x>344.0</x>
+                        <y>-200.0</y>
                     </position>
                     <height>48.0</height>
                     <label>Requirements / parameters</label>
@@ -828,10 +803,10 @@
                     <id>2c878b24-69c3-3a3c-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>-328.0</x>
-                        <y>72.0</y>
+                        <x>-312.0</x>
+                        <y>352.0</y>
                     </position>
-                    <height>624.0</height>
+                    <height>632.0</height>
                     <label>2. Remove (filter) non-crypto currencies, add timestamp to every record</label>
                     <style>
                         <entry>
@@ -843,14 +818,14 @@
                             <value>20px</value>
                         </entry>
                     </style>
-                    <width>1040.0</width>
+                    <width>904.0</width>
                 </labels>
                 <labels>
                     <id>2dc3a67b-ba11-37c4-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>848.0</x>
-                        <y>-184.0</y>
+                        <x>344.0</x>
+                        <y>-152.0</y>
                     </position>
                     <height>168.0</height>
                     <label>4. HDFS - Master dataset is stored in directory:
@@ -872,8 +847,8 @@ which is saved in parameter: master_dataset_path</label>
                     <id>337cfa67-469c-3401-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>200.0</x>
-                        <y>-232.0</y>
+                        <x>-304.0</x>
+                        <y>-200.0</y>
                     </position>
                     <height>48.0</height>
                     <label>Readme - details about flow</label>
@@ -893,8 +868,8 @@ which is saved in parameter: master_dataset_path</label>
                     <id>44511f1d-ef46-363d-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>200.0</x>
-                        <y>-184.0</y>
+                        <x>-304.0</x>
+                        <y>-152.0</y>
                     </position>
                     <height>168.0</height>
                     <label>Get data about rates of cryptocurrencies and save to HDFS.
@@ -924,8 +899,8 @@ timestamp, cryptocurrency name, it's rate in USD and others (symbol, type, short
                     <id>7276501b-7333-3220-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>-96.0</x>
-                        <y>760.0</y>
+                        <x>-152.0</x>
+                        <y>1104.0</y>
                     </position>
                     <height>192.0</height>
                     <label>Does the same as 6 processors above. Not used for clarity.</label>
@@ -945,10 +920,10 @@ timestamp, cryptocurrency name, it's rate in USD and others (symbol, type, short
                     <id>9a643d18-bfa1-37ec-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>-352.0</x>
-                        <y>-224.0</y>
+                        <x>-304.0</x>
+                        <y>56.0</y>
                     </position>
-                    <height>208.0</height>
+                    <height>224.0</height>
                     <label>1. Get API response with JSON for all currencies 
 including non-crypto currencies</label>
                     <style>
@@ -961,14 +936,14 @@ including non-crypto currencies</label>
                             <value>18px</value>
                         </entry>
                     </style>
-                    <width>472.0</width>
+                    <width>424.0</width>
                 </labels>
                 <labels>
                     <id>f306a67b-cfb0-39c1-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>872.0</x>
-                        <y>80.0</y>
+                        <x>384.0</x>
+                        <y>48.0</y>
                     </position>
                     <height>216.0</height>
                     <label>3. Group few api responses to not create many
@@ -983,100 +958,14 @@ including non-crypto currencies</label>
                             <value>18px</value>
                         </entry>
                     </style>
-                    <width>432.0</width>
+                    <width>448.0</width>
                 </labels>
-                <processors>
-                    <id>0576fc58-dd08-3a57-0000-000000000000</id>
-                    <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
-                    <position>
-                        <x>328.0</x>
-                        <y>536.0</y>
-                    </position>
-                    <bundle>
-                        <artifact>nifi-update-attribute-nar</artifact>
-                        <group>org.apache.nifi</group>
-                        <version>1.14.0</version>
-                    </bundle>
-                    <config>
-                        <bulletinLevel>WARN</bulletinLevel>
-                        <comments>This processor is unnecessary. It was created during testing to quickly check names of currencies in the queue after filtering.</comments>
-                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-                        <descriptors>
-                            <entry>
-<key>Delete Attributes Expression</key>
-<value>
-    <name>Delete Attributes Expression</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Store State</key>
-<value>
-    <name>Store State</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Stateful Variables Initial Value</key>
-<value>
-    <name>Stateful Variables Initial Value</name>
-</value>
-                            </entry>
-                            <entry>
-<key>canonical-value-lookup-cache-size</key>
-<value>
-    <name>canonical-value-lookup-cache-size</name>
-</value>
-                            </entry>
-                            <entry>
-<key>filename</key>
-<value>
-    <name>filename</name>
-</value>
-                            </entry>
-                        </descriptors>
-                        <executionNode>ALL</executionNode>
-                        <lossTolerant>false</lossTolerant>
-                        <penaltyDuration>30 sec</penaltyDuration>
-                        <properties>
-                            <entry>
-<key>Delete Attributes Expression</key>
-                            </entry>
-                            <entry>
-<key>Store State</key>
-<value>Do not store state</value>
-                            </entry>
-                            <entry>
-<key>Stateful Variables Initial Value</key>
-                            </entry>
-                            <entry>
-<key>canonical-value-lookup-cache-size</key>
-<value>100</value>
-                            </entry>
-                            <entry>
-<key>filename</key>
-<value>${crypto_id}</value>
-                            </entry>
-                        </properties>
-                        <runDurationMillis>0</runDurationMillis>
-                        <schedulingPeriod>0 sec</schedulingPeriod>
-                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
-                        <yieldDuration>1 sec</yieldDuration>
-                    </config>
-                    <executionNodeRestricted>false</executionNodeRestricted>
-                    <name>UpdateAttribute-optional-setFilename</name>
-                    <relationships>
-                        <autoTerminate>false</autoTerminate>
-                        <name>success</name>
-                    </relationships>
-                    <state>RUNNING</state>
-                    <style/>
-                    <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
-                </processors>
                 <processors>
                     <id>0802d9fc-2404-3792-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>-8.0</x>
-                        <y>800.0</y>
+                        <x>-64.0</x>
+                        <y>1144.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
@@ -1217,8 +1106,8 @@ including non-crypto currencies</label>
                     <id>0973bf79-7808-306c-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>-280.0</x>
-                        <y>-160.0</y>
+                        <x>-264.0</x>
+                        <y>120.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
@@ -1454,11 +1343,11 @@ including non-crypto currencies</label>
                             </entry>
                             <entry>
 <key>Connection Timeout</key>
-<value>5 secs</value>
+<value>30 secs</value>
                             </entry>
                             <entry>
 <key>Read Timeout</key>
-<value>5 secs</value>
+<value>30 secs</value>
                             </entry>
                             <entry>
 <key>idle-timeout</key>
@@ -1601,8 +1490,8 @@ including non-crypto currencies</label>
                     <id>69a77d7e-8e6a-3b15-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>-280.0</x>
-                        <y>536.0</y>
+                        <x>-48.0</x>
+                        <y>816.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
@@ -1639,15 +1528,15 @@ including non-crypto currencies</label>
 </value>
                             </entry>
                             <entry>
-<key>crypto_id</key>
-<value>
-    <name>crypto_id</name>
-</value>
-                            </entry>
-                            <entry>
 <key>currency_type</key>
 <value>
     <name>currency_type</name>
+</value>
+                            </entry>
+                            <entry>
+<key>filename</key>
+<value>
+    <name>filename</name>
 </value>
                             </entry>
                         </descriptors>
@@ -1672,12 +1561,12 @@ including non-crypto currencies</label>
 <value>empty string</value>
                             </entry>
                             <entry>
-<key>crypto_id</key>
-<value>$.id</value>
-                            </entry>
-                            <entry>
 <key>currency_type</key>
 <value>$.type</value>
+                            </entry>
+                            <entry>
+<key>filename</key>
+<value>$.id</value>
                             </entry>
                         </properties>
                         <runDurationMillis>0</runDurationMillis>
@@ -1707,8 +1596,8 @@ including non-crypto currencies</label>
                     <id>6f7ad57c-4803-31b4-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>928.0</x>
-                        <y>144.0</y>
+                        <x>440.0</x>
+                        <y>112.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
@@ -1863,7 +1752,7 @@ including non-crypto currencies</label>
                     <id>73303aeb-5846-390f-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>928.0</x>
+                        <x>712.0</x>
                         <y>400.0</y>
                     </position>
                     <bundle>
@@ -1937,8 +1826,8 @@ including non-crypto currencies</label>
                     <id>79476885-dc2d-32ea-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>936.0</x>
-                        <y>592.0</y>
+                        <x>712.0</x>
+                        <y>608.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-update-attribute-nar</artifact>
@@ -2023,8 +1912,8 @@ including non-crypto currencies</label>
                     <id>837f0a1b-f87d-33fa-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>-280.0</x>
-                        <y>328.0</y>
+                        <x>-264.0</x>
+                        <y>608.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
@@ -2089,8 +1978,8 @@ including non-crypto currencies</label>
                     <id>b344e394-67ec-3f57-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>328.0</x>
-                        <y>128.0</y>
+                        <x>208.0</x>
+                        <y>400.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
@@ -2161,12 +2050,6 @@ including non-crypto currencies</label>
     "spec": {
       	"timestamp": "${timestamp}"
 	}
-  },
-  {
-    "operation": "modify-default-beta",
-    "spec": {
-      "unique_record_id": "=concat(${timestamp},'_',@(1,id))"
-    }
   }
 ]</value>
                             </entry>
@@ -2185,7 +2068,7 @@ including non-crypto currencies</label>
                         <yieldDuration>1 sec</yieldDuration>
                     </config>
                     <executionNodeRestricted>false</executionNodeRestricted>
-                    <name>JoltTransformJSON-AddTimestampToRecords</name>
+                    <name>TransformJSON-AddTimestamp</name>
                     <relationships>
                         <autoTerminate>true</autoTerminate>
                         <name>failure</name>
@@ -2202,8 +2085,8 @@ including non-crypto currencies</label>
                     <id>c67ad97a-5a30-36da-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>936.0</x>
-                        <y>800.0</y>
+                        <x>712.0</x>
+                        <y>824.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-hadoop-nar</artifact>
@@ -2404,8 +2287,8 @@ including non-crypto currencies</label>
                     <id>cc02908e-7f59-3471-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>-280.0</x>
-                        <y>120.0</y>
+                        <x>-264.0</x>
+                        <y>400.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
@@ -2479,7 +2362,7 @@ including non-crypto currencies</label>
                         <yieldDuration>1 sec</yieldDuration>
                     </config>
                     <executionNodeRestricted>false</executionNodeRestricted>
-                    <name>EvaluateJsonPath-getTimestamp</name>
+                    <name>EvaluateJsonPath-readTimestamp</name>
                     <relationships>
                         <autoTerminate>true</autoTerminate>
                         <name>failure</name>
@@ -2500,8 +2383,8 @@ including non-crypto currencies</label>
                     <id>db94c2e0-f50a-35de-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>320.0</x>
-                        <y>328.0</y>
+                        <x>208.0</x>
+                        <y>608.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
@@ -2573,5 +2456,5 @@ including non-crypto currencies</label>
             </variables>
         </processGroups>
     </snippet>
-    <timestamp>12/29/2022 17:42:07 UTC</timestamp>
+    <timestamp>01/02/2023 14:44:24 UTC</timestamp>
 </template>
