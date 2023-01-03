@@ -2,7 +2,7 @@
 <template encoding-version="1.3">
     <description></description>
     <groupId>0927ddff-017c-1000-3f08-95a84646cb8e</groupId>
-    <name>crypto_rates_api_to_master_2</name>
+    <name>crypto_rates_api_to_master_3</name>
     <snippet>
         <controllerServices>
             <id>8cf51d93-107b-31fc-0000-000000000000</id>
@@ -253,56 +253,6 @@
                     <zIndex>0</zIndex>
                 </connections>
                 <connections>
-                    <id>62ae651e-2f29-354b-0000-000000000000</id>
-                    <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
-                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-                    <destination>
-                        <groupId>eb88a09d-ff52-3c31-0000-000000000000</groupId>
-                        <id>cc02908e-7f59-3471-0000-000000000000</id>
-                        <type>PROCESSOR</type>
-                    </destination>
-                    <flowFileExpiration>0 sec</flowFileExpiration>
-                    <labelIndex>1</labelIndex>
-                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
-                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
-                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
-                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
-                    <name></name>
-                    <selectedRelationships>Response</selectedRelationships>
-                    <source>
-                        <groupId>eb88a09d-ff52-3c31-0000-000000000000</groupId>
-                        <id>0973bf79-7808-306c-0000-000000000000</id>
-                        <type>PROCESSOR</type>
-                    </source>
-                    <zIndex>0</zIndex>
-                </connections>
-                <connections>
-                    <id>8d08426d-1718-3c19-0000-000000000000</id>
-                    <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
-                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-                    <destination>
-                        <groupId>eb88a09d-ff52-3c31-0000-000000000000</groupId>
-                        <id>837f0a1b-f87d-33fa-0000-000000000000</id>
-                        <type>PROCESSOR</type>
-                    </destination>
-                    <flowFileExpiration>0 sec</flowFileExpiration>
-                    <labelIndex>1</labelIndex>
-                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
-                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
-                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
-                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
-                    <name></name>
-                    <selectedRelationships>matched</selectedRelationships>
-                    <source>
-                        <groupId>eb88a09d-ff52-3c31-0000-000000000000</groupId>
-                        <id>cc02908e-7f59-3471-0000-000000000000</id>
-                        <type>PROCESSOR</type>
-                    </source>
-                    <zIndex>0</zIndex>
-                </connections>
-                <connections>
                     <id>9f559b5d-b464-3719-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
@@ -328,32 +278,7 @@
                     <zIndex>0</zIndex>
                 </connections>
                 <connections>
-                    <id>d215db42-30d8-3440-0000-000000000000</id>
-                    <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
-                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-                    <destination>
-                        <groupId>eb88a09d-ff52-3c31-0000-000000000000</groupId>
-                        <id>db94c2e0-f50a-35de-0000-000000000000</id>
-                        <type>PROCESSOR</type>
-                    </destination>
-                    <flowFileExpiration>0 sec</flowFileExpiration>
-                    <labelIndex>1</labelIndex>
-                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
-                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
-                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
-                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
-                    <name></name>
-                    <selectedRelationships>matched</selectedRelationships>
-                    <source>
-                        <groupId>eb88a09d-ff52-3c31-0000-000000000000</groupId>
-                        <id>69a77d7e-8e6a-3b15-0000-000000000000</id>
-                        <type>PROCESSOR</type>
-                    </source>
-                    <zIndex>0</zIndex>
-                </connections>
-                <connections>
-                    <id>d2bf20a1-546d-3d48-0000-000000000000</id>
+                    <id>aebccef9-f385-3b3c-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
                     <backPressureObjectThreshold>10000</backPressureObjectThreshold>
@@ -369,35 +294,10 @@
                     <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
                     <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
                     <name></name>
-                    <selectedRelationships>crypto_currency</selectedRelationships>
+                    <selectedRelationships>Response</selectedRelationships>
                     <source>
                         <groupId>eb88a09d-ff52-3c31-0000-000000000000</groupId>
-                        <id>db94c2e0-f50a-35de-0000-000000000000</id>
-                        <type>PROCESSOR</type>
-                    </source>
-                    <zIndex>0</zIndex>
-                </connections>
-                <connections>
-                    <id>d918cb51-714f-3b02-0000-000000000000</id>
-                    <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
-                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-                    <destination>
-                        <groupId>eb88a09d-ff52-3c31-0000-000000000000</groupId>
-                        <id>69a77d7e-8e6a-3b15-0000-000000000000</id>
-                        <type>PROCESSOR</type>
-                    </destination>
-                    <flowFileExpiration>0 sec</flowFileExpiration>
-                    <labelIndex>1</labelIndex>
-                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
-                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
-                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
-                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
-                    <name></name>
-                    <selectedRelationships>split</selectedRelationships>
-                    <source>
-                        <groupId>eb88a09d-ff52-3c31-0000-000000000000</groupId>
-                        <id>837f0a1b-f87d-33fa-0000-000000000000</id>
+                        <id>0973bf79-7808-306c-0000-000000000000</id>
                         <type>PROCESSOR</type>
                     </source>
                     <zIndex>0</zIndex>
@@ -761,11 +661,11 @@
                     <id>0a176833-6184-3be5-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>656.0</x>
+                        <x>168.0</x>
                         <y>352.0</y>
                     </position>
-                    <height>632.0</height>
-                    <label>4. Save JSON as AVRO to HDFS</label>
+                    <height>616.0</height>
+                    <label>3. Save JSON as AVRO to HDFS</label>
                     <style>
                         <entry>
                             <key>background-color</key>
@@ -776,7 +676,7 @@
                             <value>18px</value>
                         </entry>
                     </style>
-                    <width>448.0</width>
+                    <width>432.0</width>
                 </labels>
                 <labels>
                     <id>0f5d06dd-26ba-305f-0000-000000000000</id>
@@ -803,11 +703,11 @@
                     <id>2c878b24-69c3-3a3c-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>-312.0</x>
+                        <x>-304.0</x>
                         <y>352.0</y>
                     </position>
-                    <height>632.0</height>
-                    <label>2. Remove (filter) non-crypto currencies, add timestamp to every record</label>
+                    <height>392.0</height>
+                    <label>2. add timestamp to every record and group</label>
                     <style>
                         <entry>
                             <key>background-color</key>
@@ -818,7 +718,7 @@
                             <value>20px</value>
                         </entry>
                     </style>
-                    <width>904.0</width>
+                    <width>424.0</width>
                 </labels>
                 <labels>
                     <id>2dc3a67b-ba11-37c4-0000-000000000000</id>
@@ -877,12 +777,10 @@ which is saved in parameter: master_dataset_path</label>
 Details: 
 1. Every 10 seconds API request is sent.
 2. JSON response contains 17 crypto and 150+ non-crypto currencies rates in USD.
-3. JSON is split by currency, 
-4. JSONs are filtered by type (only crypto is left),
-5. Timestamp is added to the JSON,
-6. Since these JSONs are tiny, they are merged before saving to HDFS every minute (simulation of merging).
+5. Timestamp is copied to every JSON array element,
+6. JSONs are merged before saving to HDFS every minute,
 7. Merged JSON is converted to AVRO - every row contains information about:
-timestamp, cryptocurrency name, it's rate in USD and others (symbol, type, short name, name+timestamp_id)</label>
+timestamp, cryptocurrency name, it's rate in USD, symbol, type, short name.</label>
                     <style>
                         <entry>
                             <key>background-color</key>
@@ -896,32 +794,11 @@ timestamp, cryptocurrency name, it's rate in USD and others (symbol, type, short
                     <width>592.0</width>
                 </labels>
                 <labels>
-                    <id>7276501b-7333-3220-0000-000000000000</id>
-                    <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
-                    <position>
-                        <x>-152.0</x>
-                        <y>1104.0</y>
-                    </position>
-                    <height>192.0</height>
-                    <label>Does the same as 6 processors above. Not used for clarity.</label>
-                    <style>
-                        <entry>
-                            <key>background-color</key>
-                            <value>#fff7d7</value>
-                        </entry>
-                        <entry>
-                            <key>font-size</key>
-                            <value>18px</value>
-                        </entry>
-                    </style>
-                    <width>512.0</width>
-                </labels>
-                <labels>
                     <id>9a643d18-bfa1-37ec-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
                         <x>-304.0</x>
-                        <y>56.0</y>
+                        <y>48.0</y>
                     </position>
                     <height>224.0</height>
                     <label>1. Get API response with JSON for all currencies 
@@ -938,170 +815,6 @@ including non-crypto currencies</label>
                     </style>
                     <width>424.0</width>
                 </labels>
-                <labels>
-                    <id>f306a67b-cfb0-39c1-0000-000000000000</id>
-                    <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
-                    <position>
-                        <x>384.0</x>
-                        <y>48.0</y>
-                    </position>
-                    <height>216.0</height>
-                    <label>3. Group few api responses to not create many
- tiny files in HDFS</label>
-                    <style>
-                        <entry>
-                            <key>background-color</key>
-                            <value>#d6fff5</value>
-                        </entry>
-                        <entry>
-                            <key>font-size</key>
-                            <value>18px</value>
-                        </entry>
-                    </style>
-                    <width>448.0</width>
-                </labels>
-                <processors>
-                    <id>0802d9fc-2404-3792-0000-000000000000</id>
-                    <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
-                    <position>
-                        <x>-64.0</x>
-                        <y>1144.0</y>
-                    </position>
-                    <bundle>
-                        <artifact>nifi-standard-nar</artifact>
-                        <group>org.apache.nifi</group>
-                        <version>1.14.0</version>
-                    </bundle>
-                    <config>
-                        <bulletinLevel>WARN</bulletinLevel>
-                        <comments></comments>
-                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-                        <descriptors>
-                            <entry>
-<key>jolt-transform</key>
-<value>
-    <name>jolt-transform</name>
-</value>
-                            </entry>
-                            <entry>
-<key>jolt-custom-class</key>
-<value>
-    <name>jolt-custom-class</name>
-</value>
-                            </entry>
-                            <entry>
-<key>jolt-custom-modules</key>
-<value>
-    <name>jolt-custom-modules</name>
-</value>
-                            </entry>
-                            <entry>
-<key>jolt-spec</key>
-<value>
-    <name>jolt-spec</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Transform Cache Size</key>
-<value>
-    <name>Transform Cache Size</name>
-</value>
-                            </entry>
-                            <entry>
-<key>pretty_print</key>
-<value>
-    <name>pretty_print</name>
-</value>
-                            </entry>
-                        </descriptors>
-                        <executionNode>ALL</executionNode>
-                        <lossTolerant>false</lossTolerant>
-                        <penaltyDuration>30 sec</penaltyDuration>
-                        <properties>
-                            <entry>
-<key>jolt-transform</key>
-<value>jolt-transform-chain</value>
-                            </entry>
-                            <entry>
-<key>jolt-custom-class</key>
-                            </entry>
-                            <entry>
-<key>jolt-custom-modules</key>
-                            </entry>
-                            <entry>
-<key>jolt-spec</key>
-<value>[
-  {
-    "operation": "modify-default-beta",
-    "spec": {
-      "data": {
-        "*": {
-          "timestamp": "@(3,timestamp)",
-          "unique_record_id": "=concat(@(3,timestamp),'_',@(1,id))"
-        }
-      }
-    }
-  }, {
-    "operation": "shift",
-    "spec": {
-      "data": {
-        "*": {
-          "*": "[&amp;1].&amp;"
-        }
-      }
-    }
-  }, {
-    "operation": "shift",
-    "spec": {
-      "*": {
-        "type": {
-          "crypto": {
-            "@2": "[].&amp;"
-          }
-        }
-      }
-    }
-  }, {
-    "operation": "shift",
-    "spec": {
-      "*": {
-        "*": {
-          "*": "[&amp;2].&amp;"
-        }
-      }
-    }
-  }
-]
-</value>
-                            </entry>
-                            <entry>
-<key>Transform Cache Size</key>
-<value>1</value>
-                            </entry>
-                            <entry>
-<key>pretty_print</key>
-<value>false</value>
-                            </entry>
-                        </properties>
-                        <runDurationMillis>0</runDurationMillis>
-                        <schedulingPeriod>0 sec</schedulingPeriod>
-                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
-                        <yieldDuration>1 sec</yieldDuration>
-                    </config>
-                    <executionNodeRestricted>false</executionNodeRestricted>
-                    <name>JoltTransformJSON-TransformJSON</name>
-                    <relationships>
-                        <autoTerminate>true</autoTerminate>
-                        <name>failure</name>
-                    </relationships>
-                    <relationships>
-                        <autoTerminate>false</autoTerminate>
-                        <name>success</name>
-                    </relationships>
-                    <state>DISABLED</state>
-                    <style/>
-                    <type>org.apache.nifi.processors.standard.JoltTransformJSON</type>
-                </processors>
                 <processors>
                     <id>0973bf79-7808-306c-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
@@ -1325,6 +1038,12 @@ including non-crypto currencies</label>
     <name>set-form-filename</name>
 </value>
                             </entry>
+                            <entry>
+<key>Authorization</key>
+<value>
+    <name>Authorization</name>
+</value>
+                            </entry>
                         </descriptors>
                         <executionNode>ALL</executionNode>
                         <lossTolerant>false</lossTolerant>
@@ -1343,11 +1062,11 @@ including non-crypto currencies</label>
                             </entry>
                             <entry>
 <key>Connection Timeout</key>
-<value>30 secs</value>
+<value>10 secs</value>
                             </entry>
                             <entry>
 <key>Read Timeout</key>
-<value>30 secs</value>
+<value>10 secs</value>
                             </entry>
                             <entry>
 <key>idle-timeout</key>
@@ -1454,11 +1173,15 @@ including non-crypto currencies</label>
 <key>set-form-filename</key>
 <value>true</value>
                             </entry>
+                            <entry>
+<key>Authorization</key>
+<value>Bearer 7beaf528-843c-4382-b60f-dc01e4cf157e</value>
+                            </entry>
                         </properties>
                         <runDurationMillis>0</runDurationMillis>
                         <schedulingPeriod>10 sec</schedulingPeriod>
                         <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
-                        <yieldDuration>1 sec</yieldDuration>
+                        <yieldDuration>3 sec</yieldDuration>
                     </config>
                     <executionNodeRestricted>false</executionNodeRestricted>
                     <name>InvokeHTTP-AllCurrencies</name>
@@ -1487,117 +1210,11 @@ including non-crypto currencies</label>
                     <type>org.apache.nifi.processors.standard.InvokeHTTP</type>
                 </processors>
                 <processors>
-                    <id>69a77d7e-8e6a-3b15-0000-000000000000</id>
-                    <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
-                    <position>
-                        <x>-48.0</x>
-                        <y>816.0</y>
-                    </position>
-                    <bundle>
-                        <artifact>nifi-standard-nar</artifact>
-                        <group>org.apache.nifi</group>
-                        <version>1.14.0</version>
-                    </bundle>
-                    <config>
-                        <bulletinLevel>WARN</bulletinLevel>
-                        <comments></comments>
-                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-                        <descriptors>
-                            <entry>
-<key>Destination</key>
-<value>
-    <name>Destination</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Return Type</key>
-<value>
-    <name>Return Type</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Path Not Found Behavior</key>
-<value>
-    <name>Path Not Found Behavior</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Null Value Representation</key>
-<value>
-    <name>Null Value Representation</name>
-</value>
-                            </entry>
-                            <entry>
-<key>currency_type</key>
-<value>
-    <name>currency_type</name>
-</value>
-                            </entry>
-                            <entry>
-<key>filename</key>
-<value>
-    <name>filename</name>
-</value>
-                            </entry>
-                        </descriptors>
-                        <executionNode>ALL</executionNode>
-                        <lossTolerant>false</lossTolerant>
-                        <penaltyDuration>30 sec</penaltyDuration>
-                        <properties>
-                            <entry>
-<key>Destination</key>
-<value>flowfile-attribute</value>
-                            </entry>
-                            <entry>
-<key>Return Type</key>
-<value>auto-detect</value>
-                            </entry>
-                            <entry>
-<key>Path Not Found Behavior</key>
-<value>ignore</value>
-                            </entry>
-                            <entry>
-<key>Null Value Representation</key>
-<value>empty string</value>
-                            </entry>
-                            <entry>
-<key>currency_type</key>
-<value>$.type</value>
-                            </entry>
-                            <entry>
-<key>filename</key>
-<value>$.id</value>
-                            </entry>
-                        </properties>
-                        <runDurationMillis>0</runDurationMillis>
-                        <schedulingPeriod>0 sec</schedulingPeriod>
-                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
-                        <yieldDuration>1 sec</yieldDuration>
-                    </config>
-                    <executionNodeRestricted>false</executionNodeRestricted>
-                    <name>EvaluateJsonPath-getNameAndType</name>
-                    <relationships>
-                        <autoTerminate>true</autoTerminate>
-                        <name>failure</name>
-                    </relationships>
-                    <relationships>
-                        <autoTerminate>false</autoTerminate>
-                        <name>matched</name>
-                    </relationships>
-                    <relationships>
-                        <autoTerminate>true</autoTerminate>
-                        <name>unmatched</name>
-                    </relationships>
-                    <state>RUNNING</state>
-                    <style/>
-                    <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
-                </processors>
-                <processors>
                     <id>6f7ad57c-4803-31b4-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>440.0</x>
-                        <y>112.0</y>
+                        <x>-264.0</x>
+                        <y>592.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
@@ -1752,8 +1369,8 @@ including non-crypto currencies</label>
                     <id>73303aeb-5846-390f-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>712.0</x>
-                        <y>400.0</y>
+                        <x>208.0</x>
+                        <y>392.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
@@ -1826,8 +1443,8 @@ including non-crypto currencies</label>
                     <id>79476885-dc2d-32ea-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>712.0</x>
-                        <y>608.0</y>
+                        <x>208.0</x>
+                        <y>600.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-update-attribute-nar</artifact>
@@ -1909,77 +1526,11 @@ including non-crypto currencies</label>
                     <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
                 </processors>
                 <processors>
-                    <id>837f0a1b-f87d-33fa-0000-000000000000</id>
-                    <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
-                    <position>
-                        <x>-264.0</x>
-                        <y>608.0</y>
-                    </position>
-                    <bundle>
-                        <artifact>nifi-standard-nar</artifact>
-                        <group>org.apache.nifi</group>
-                        <version>1.14.0</version>
-                    </bundle>
-                    <config>
-                        <bulletinLevel>WARN</bulletinLevel>
-                        <comments></comments>
-                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-                        <descriptors>
-                            <entry>
-<key>JsonPath Expression</key>
-<value>
-    <name>JsonPath Expression</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Null Value Representation</key>
-<value>
-    <name>Null Value Representation</name>
-</value>
-                            </entry>
-                        </descriptors>
-                        <executionNode>ALL</executionNode>
-                        <lossTolerant>false</lossTolerant>
-                        <penaltyDuration>30 sec</penaltyDuration>
-                        <properties>
-                            <entry>
-<key>JsonPath Expression</key>
-<value>$.data[*]</value>
-                            </entry>
-                            <entry>
-<key>Null Value Representation</key>
-<value>empty string</value>
-                            </entry>
-                        </properties>
-                        <runDurationMillis>0</runDurationMillis>
-                        <schedulingPeriod>0 sec</schedulingPeriod>
-                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
-                        <yieldDuration>1 sec</yieldDuration>
-                    </config>
-                    <executionNodeRestricted>false</executionNodeRestricted>
-                    <name>SplitJson-byCurrency</name>
-                    <relationships>
-                        <autoTerminate>true</autoTerminate>
-                        <name>failure</name>
-                    </relationships>
-                    <relationships>
-                        <autoTerminate>true</autoTerminate>
-                        <name>original</name>
-                    </relationships>
-                    <relationships>
-                        <autoTerminate>false</autoTerminate>
-                        <name>split</name>
-                    </relationships>
-                    <state>RUNNING</state>
-                    <style/>
-                    <type>org.apache.nifi.processors.standard.SplitJson</type>
-                </processors>
-                <processors>
                     <id>b344e394-67ec-3f57-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>208.0</x>
-                        <y>400.0</y>
+                        <x>-264.0</x>
+                        <y>392.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
@@ -2046,10 +1597,23 @@ including non-crypto currencies</label>
 <key>jolt-spec</key>
 <value>[
   {
-    "operation": "default",
+    "operation": "modify-default-beta",
     "spec": {
-      	"timestamp": "${timestamp}"
-	}
+      "data": {
+        "*": {
+          "timestamp": "@(3,timestamp)"
+        }
+      }
+    }
+  }, {
+    "operation": "shift",
+    "spec": {
+      "data": {
+        "*": {
+          "*": "[&amp;1].&amp;"
+        }
+      }
+    }
   }
 ]</value>
                             </entry>
@@ -2085,8 +1649,8 @@ including non-crypto currencies</label>
                     <id>c67ad97a-5a30-36da-0000-000000000000</id>
                     <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
                     <position>
-                        <x>712.0</x>
-                        <y>824.0</y>
+                        <x>208.0</x>
+                        <y>816.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-hadoop-nar</artifact>
@@ -2283,164 +1847,6 @@ including non-crypto currencies</label>
                     <style/>
                     <type>org.apache.nifi.processors.hadoop.PutHDFS</type>
                 </processors>
-                <processors>
-                    <id>cc02908e-7f59-3471-0000-000000000000</id>
-                    <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
-                    <position>
-                        <x>-264.0</x>
-                        <y>400.0</y>
-                    </position>
-                    <bundle>
-                        <artifact>nifi-standard-nar</artifact>
-                        <group>org.apache.nifi</group>
-                        <version>1.14.0</version>
-                    </bundle>
-                    <config>
-                        <bulletinLevel>WARN</bulletinLevel>
-                        <comments></comments>
-                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-                        <descriptors>
-                            <entry>
-<key>Destination</key>
-<value>
-    <name>Destination</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Return Type</key>
-<value>
-    <name>Return Type</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Path Not Found Behavior</key>
-<value>
-    <name>Path Not Found Behavior</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Null Value Representation</key>
-<value>
-    <name>Null Value Representation</name>
-</value>
-                            </entry>
-                            <entry>
-<key>timestamp</key>
-<value>
-    <name>timestamp</name>
-</value>
-                            </entry>
-                        </descriptors>
-                        <executionNode>ALL</executionNode>
-                        <lossTolerant>false</lossTolerant>
-                        <penaltyDuration>30 sec</penaltyDuration>
-                        <properties>
-                            <entry>
-<key>Destination</key>
-<value>flowfile-attribute</value>
-                            </entry>
-                            <entry>
-<key>Return Type</key>
-<value>auto-detect</value>
-                            </entry>
-                            <entry>
-<key>Path Not Found Behavior</key>
-<value>ignore</value>
-                            </entry>
-                            <entry>
-<key>Null Value Representation</key>
-<value>the string 'null'</value>
-                            </entry>
-                            <entry>
-<key>timestamp</key>
-<value>$.timestamp</value>
-                            </entry>
-                        </properties>
-                        <runDurationMillis>0</runDurationMillis>
-                        <schedulingPeriod>0 sec</schedulingPeriod>
-                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
-                        <yieldDuration>1 sec</yieldDuration>
-                    </config>
-                    <executionNodeRestricted>false</executionNodeRestricted>
-                    <name>EvaluateJsonPath-readTimestamp</name>
-                    <relationships>
-                        <autoTerminate>true</autoTerminate>
-                        <name>failure</name>
-                    </relationships>
-                    <relationships>
-                        <autoTerminate>false</autoTerminate>
-                        <name>matched</name>
-                    </relationships>
-                    <relationships>
-                        <autoTerminate>true</autoTerminate>
-                        <name>unmatched</name>
-                    </relationships>
-                    <state>RUNNING</state>
-                    <style/>
-                    <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
-                </processors>
-                <processors>
-                    <id>db94c2e0-f50a-35de-0000-000000000000</id>
-                    <parentGroupId>eb88a09d-ff52-3c31-0000-000000000000</parentGroupId>
-                    <position>
-                        <x>208.0</x>
-                        <y>608.0</y>
-                    </position>
-                    <bundle>
-                        <artifact>nifi-standard-nar</artifact>
-                        <group>org.apache.nifi</group>
-                        <version>1.14.0</version>
-                    </bundle>
-                    <config>
-                        <bulletinLevel>WARN</bulletinLevel>
-                        <comments></comments>
-                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-                        <descriptors>
-                            <entry>
-<key>Routing Strategy</key>
-<value>
-    <name>Routing Strategy</name>
-</value>
-                            </entry>
-                            <entry>
-<key>crypto_currency</key>
-<value>
-    <name>crypto_currency</name>
-</value>
-                            </entry>
-                        </descriptors>
-                        <executionNode>ALL</executionNode>
-                        <lossTolerant>false</lossTolerant>
-                        <penaltyDuration>30 sec</penaltyDuration>
-                        <properties>
-                            <entry>
-<key>Routing Strategy</key>
-<value>Route to Property name</value>
-                            </entry>
-                            <entry>
-<key>crypto_currency</key>
-<value>${currency_type:matches('crypto')}</value>
-                            </entry>
-                        </properties>
-                        <runDurationMillis>0</runDurationMillis>
-                        <schedulingPeriod>0 sec</schedulingPeriod>
-                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
-                        <yieldDuration>1 sec</yieldDuration>
-                    </config>
-                    <executionNodeRestricted>false</executionNodeRestricted>
-                    <name>RouteOnAttribute-filterOnlyCrypto</name>
-                    <relationships>
-                        <autoTerminate>false</autoTerminate>
-                        <name>crypto_currency</name>
-                    </relationships>
-                    <relationships>
-                        <autoTerminate>true</autoTerminate>
-                        <name>unmatched</name>
-                    </relationships>
-                    <state>RUNNING</state>
-                    <style/>
-                    <type>org.apache.nifi.processors.standard.RouteOnAttribute</type>
-                </processors>
             </contents>
             <defaultBackPressureDataSizeThreshold>1 GB</defaultBackPressureDataSizeThreshold>
             <defaultBackPressureObjectThreshold>10000</defaultBackPressureObjectThreshold>
@@ -2456,5 +1862,5 @@ including non-crypto currencies</label>
             </variables>
         </processGroups>
     </snippet>
-    <timestamp>01/02/2023 14:44:24 UTC</timestamp>
+    <timestamp>01/03/2023 19:08:16 UTC</timestamp>
 </template>
