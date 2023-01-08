@@ -7,3 +7,7 @@ Project is about using Apache NiFi and other Big Data tools to gather and analyz
 
 ## Setup
 All `.xml` are to be imported into Nifi. Files `transform_crypto_news.py` and `spark_job.sh` must be placed in the `/home/vagrant/` directory.
+Additionally, a table in HBase needs to be created, as follows:
+```
+create 'crypto_news', 'data', 'lang', 'count'
+```
