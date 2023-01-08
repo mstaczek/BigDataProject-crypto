@@ -903,7 +903,7 @@ newest crypto-related articles</label>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
                 <x>568.0001220703125</x>
-                <y>57.264862060546875</y>
+                <y>55.78369140625</y>
             </position>
             <bundle>
                 <artifact>nifi-hadoop-nar</artifact>
@@ -1106,7 +1106,7 @@ newest crypto-related articles</label>
                     </entry>
                 </properties>
                 <runDurationMillis>0</runDurationMillis>
-                <schedulingPeriod>10 sec</schedulingPeriod>
+                <schedulingPeriod>1800 sec</schedulingPeriod>
                 <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
                 <yieldDuration>1 sec</yieldDuration>
             </config>
@@ -1125,7 +1125,7 @@ newest crypto-related articles</label>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
                 <x>568.0001220703125</x>
-                <y>257.2648620605469</y>
+                <y>255.78369140625</y>
             </position>
             <bundle>
                 <artifact>nifi-update-attribute-nar</artifact>
@@ -2283,5 +2283,5 @@ newest crypto-related articles</label>
             <type>org.apache.nifi.processors.standard.JoltTransformJSON</type>
         </processors>
     </snippet>
-    <timestamp>01/08/2023 11:19:08 UTC</timestamp>
+    <timestamp>01/08/2023 14:59:08 UTC</timestamp>
 </template>
