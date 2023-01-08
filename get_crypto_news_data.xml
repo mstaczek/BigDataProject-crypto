@@ -704,12 +704,120 @@
             <state>ENABLED</state>
             <type>org.apache.nifi.hbase.HBase_2_ClientService</type>
         </controllerServices>
+        <labels>
+            <id>4a8e2627-744a-382e-0000-000000000000</id>
+            <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
+            <position>
+                <x>518.8775634765625</x>
+                <y>5.75494384765625</y>
+            </position>
+            <height>600.0</height>
+            <label>5. Transfer pyspark result to HBase, with proper 
+division into column families</label>
+            <style>
+                <entry>
+                    <key>background-color</key>
+                    <value>#ffd4d9</value>
+                </entry>
+                <entry>
+                    <key>font-size</key>
+                    <value>18px</value>
+                </entry>
+            </style>
+            <width>448.0</width>
+        </labels>
+        <labels>
+            <id>8ec74f94-ef72-3cc4-0000-000000000000</id>
+            <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
+            <position>
+                <x>622.8775634765625</x>
+                <y>853.7549438476562</y>
+            </position>
+            <height>216.0</height>
+            <label>4. Send pyspark command to parse the file 
+from master dataset</label>
+            <style>
+                <entry>
+                    <key>background-color</key>
+                    <value>#f7d6ff</value>
+                </entry>
+                <entry>
+                    <key>font-size</key>
+                    <value>18px</value>
+                </entry>
+            </style>
+            <width>392.0</width>
+        </labels>
+        <labels>
+            <id>aad11b34-1418-304d-0000-000000000000</id>
+            <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
+            <position>
+                <x>8.0</x>
+                <y>0.0</y>
+            </position>
+            <height>208.0</height>
+            <label>1. Get API response with JSON for ten
+newest crypto-related articles</label>
+            <style>
+                <entry>
+                    <key>background-color</key>
+                    <value>#e4ffd6</value>
+                </entry>
+                <entry>
+                    <key>font-size</key>
+                    <value>18px</value>
+                </entry>
+            </style>
+            <width>424.0</width>
+        </labels>
+        <labels>
+            <id>b2bdfc72-17dd-32cf-0000-000000000000</id>
+            <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
+            <position>
+                <x>8.0</x>
+                <y>712.0</y>
+            </position>
+            <height>376.0</height>
+            <label>3. Save to HDFS</label>
+            <style>
+                <entry>
+                    <key>background-color</key>
+                    <value>#d6fff5</value>
+                </entry>
+                <entry>
+                    <key>font-size</key>
+                    <value>18px</value>
+                </entry>
+            </style>
+            <width>424.0</width>
+        </labels>
+        <labels>
+            <id>def9ad46-9d04-3274-0000-000000000000</id>
+            <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>280.0</y>
+            </position>
+            <height>352.0</height>
+            <label>2. extract data and convert to parquet</label>
+            <style>
+                <entry>
+                    <key>background-color</key>
+                    <value>#fff7d7</value>
+                </entry>
+                <entry>
+                    <key>font-size</key>
+                    <value>20px</value>
+                </entry>
+            </style>
+            <width>432.0</width>
+        </labels>
         <processors>
             <id>182b9999-3af4-3edc-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>8.0</x>
-                <y>608.0</y>
+                <x>56.0</x>
+                <y>744.0</y>
             </position>
             <bundle>
                 <artifact>nifi-update-attribute-nar</artifact>
@@ -794,8 +902,8 @@
             <id>2c71abc3-a9c8-3e3b-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>488.0</x>
-                <y>0.0</y>
+                <x>566.8775634765625</x>
+                <y>61.75494384765625</y>
             </position>
             <bundle>
                 <artifact>nifi-hadoop-nar</artifact>
@@ -1016,8 +1124,8 @@
             <id>4055028e-3d15-35d3-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>488.0</x>
-                <y>200.0</y>
+                <x>566.8775634765625</x>
+                <y>261.75494384765625</y>
             </position>
             <bundle>
                 <artifact>nifi-update-attribute-nar</artifact>
@@ -1102,8 +1210,8 @@
             <id>57892d3d-2e8d-3104-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>488.0</x>
-                <y>392.0</y>
+                <x>566.8775634765625</x>
+                <y>453.75494384765625</y>
             </position>
             <bundle>
                 <artifact>nifi-hbase-nar</artifact>
@@ -1273,8 +1381,8 @@
             <id>9f88f456-3bb4-3216-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>0.0</x>
-                <y>8.0</y>
+                <x>48.0</x>
+                <y>56.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -1657,8 +1765,8 @@
             <id>a0d3d655-1bc6-37f0-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>8.0</x>
-                <y>416.0</y>
+                <x>56.0</x>
+                <y>496.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -1731,8 +1839,8 @@
             <id>c7ff6371-455d-394d-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>8.0</x>
-                <y>792.0</y>
+                <x>56.0</x>
+                <y>928.0</y>
             </position>
             <bundle>
                 <artifact>nifi-hadoop-nar</artifact>
@@ -1933,8 +2041,8 @@
             <id>d34216af-7284-346f-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>616.0</x>
-                <y>792.0</y>
+                <x>646.8775634765625</x>
+                <y>917.7549438476562</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -2068,8 +2176,8 @@
             <id>db6f462e-98de-3ae8-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>0.0</x>
-                <y>208.0</y>
+                <x>48.0</x>
+                <y>320.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -2175,5 +2283,5 @@
             <type>org.apache.nifi.processors.standard.JoltTransformJSON</type>
         </processors>
     </snippet>
-    <timestamp>01/06/2023 15:26:36 UTC</timestamp>
+    <timestamp>01/08/2023 10:08:36 UTC</timestamp>
 </template>
