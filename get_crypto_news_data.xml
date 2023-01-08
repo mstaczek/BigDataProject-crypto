@@ -708,8 +708,8 @@
             <id>4a8e2627-744a-382e-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>518.8775634765625</x>
-                <y>5.75494384765625</y>
+                <x>520.0001220703125</x>
+                <y>1.264862060546875</y>
             </position>
             <height>600.0</height>
             <label>5. Transfer pyspark result to HBase, with proper 
@@ -730,8 +730,8 @@ division into column families</label>
             <id>8ec74f94-ef72-3cc4-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>622.8775634765625</x>
-                <y>853.7549438476562</y>
+                <x>624.0001220703125</x>
+                <y>849.2648620605469</y>
             </position>
             <height>216.0</height>
             <label>4. Send pyspark command to parse the file 
@@ -774,8 +774,8 @@ newest crypto-related articles</label>
             <id>b2bdfc72-17dd-32cf-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>8.0</x>
-                <y>712.0</y>
+                <x>9.12255859375</x>
+                <y>707.5099182128906</y>
             </position>
             <height>376.0</height>
             <label>3. Save to HDFS</label>
@@ -816,8 +816,8 @@ newest crypto-related articles</label>
             <id>182b9999-3af4-3edc-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>56.0</x>
-                <y>744.0</y>
+                <x>57.12255859375</x>
+                <y>739.5099182128906</y>
             </position>
             <bundle>
                 <artifact>nifi-update-attribute-nar</artifact>
@@ -902,8 +902,8 @@ newest crypto-related articles</label>
             <id>2c71abc3-a9c8-3e3b-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>566.8775634765625</x>
-                <y>61.75494384765625</y>
+                <x>568.0001220703125</x>
+                <y>57.264862060546875</y>
             </position>
             <bundle>
                 <artifact>nifi-hadoop-nar</artifact>
@@ -1124,8 +1124,8 @@ newest crypto-related articles</label>
             <id>4055028e-3d15-35d3-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>566.8775634765625</x>
-                <y>261.75494384765625</y>
+                <x>568.0001220703125</x>
+                <y>257.2648620605469</y>
             </position>
             <bundle>
                 <artifact>nifi-update-attribute-nar</artifact>
@@ -1210,8 +1210,8 @@ newest crypto-related articles</label>
             <id>57892d3d-2e8d-3104-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>566.8775634765625</x>
-                <y>453.75494384765625</y>
+                <x>568.0001220703125</x>
+                <y>449.2648620605469</y>
             </position>
             <bundle>
                 <artifact>nifi-hbase-nar</artifact>
@@ -1611,7 +1611,7 @@ newest crypto-related articles</label>
                     </entry>
                     <entry>
                         <key>Remote URL</key>
-                        <value>https://newsdata.io/api/1/news?apikey=${news_api_key}&amp;q=cryptocurrency&amp;from_date=2023-01-05T12:56:00</value>
+                        <value>https://newsdata.io/api/1/news?apikey=${news_api_key}&amp;q=cryptocurrency</value>
                     </entry>
                     <entry>
                         <key>SSL Context Service</key>
@@ -1765,8 +1765,8 @@ newest crypto-related articles</label>
             <id>a0d3d655-1bc6-37f0-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>56.0</x>
-                <y>496.0</y>
+                <x>57.12255859375</x>
+                <y>491.5099182128906</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -1839,8 +1839,8 @@ newest crypto-related articles</label>
             <id>c7ff6371-455d-394d-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>56.0</x>
-                <y>928.0</y>
+                <x>57.12255859375</x>
+                <y>923.5099182128906</y>
             </position>
             <bundle>
                 <artifact>nifi-hadoop-nar</artifact>
@@ -2041,8 +2041,8 @@ newest crypto-related articles</label>
             <id>d34216af-7284-346f-0000-000000000000</id>
             <parentGroupId>4a852d82-f327-36d0-0000-000000000000</parentGroupId>
             <position>
-                <x>646.8775634765625</x>
-                <y>917.7549438476562</y>
+                <x>648.0001220703125</x>
+                <y>913.2648620605469</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -2283,5 +2283,5 @@ newest crypto-related articles</label>
             <type>org.apache.nifi.processors.standard.JoltTransformJSON</type>
         </processors>
     </snippet>
-    <timestamp>01/08/2023 10:08:36 UTC</timestamp>
+    <timestamp>01/08/2023 11:19:08 UTC</timestamp>
 </template>
